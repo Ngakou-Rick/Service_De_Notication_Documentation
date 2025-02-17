@@ -23,7 +23,7 @@ export default function Cards() {
       </div>
 
       <div className={classes.Card}>
-        <Link href="/AboutRacine/Classification/dataset">
+        <Link href="/AboutRacine/Sms">
           <span className={classes.Title}>
             <FontAwesomeIcon icon={faEnvelope} className={classes.Icon} />
             SMS Notification
@@ -32,7 +32,7 @@ export default function Cards() {
       </div>
 
       <div className={classes.Card}>
-        <a href="/AboutRacine/PossiblePaths/node">
+        <a href="/AboutRacine/Email">
           <span className={classes.Title}>
             <FontAwesomeIcon icon={faEnvelopeOpenText} className={classes.Icon} />
             Email Notification
@@ -41,7 +41,7 @@ export default function Cards() {
       </div>
 
       <div className={classes.Card}>
-        <Link href="/AboutRacine/AcceptablePaths/index">
+        <Link href="/AboutRacine/Push">
           <span className={classes.Title}>
             <FontAwesomeIcon icon={faBell} className={classes.Icon} />
             Push Notification
@@ -50,7 +50,7 @@ export default function Cards() {
       </div>
 
       <div className={classes.Card}>
-        <Link href="/AboutRacine/OptimalPaths/Metric">
+        <Link href="/AboutRacine/Whatsapp">
           <span className={classes.Title}>
             <FontAwesomeIcon icon={faComments} className={classes.Icon} />
             WhatsApp Notification
