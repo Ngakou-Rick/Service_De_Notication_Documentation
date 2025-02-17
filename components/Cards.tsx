@@ -35,7 +35,7 @@ export default function Cards() {
         <a href="/AboutRacine/Email/code">
           <span className={classes.Title}>
             <FontAwesomeIcon icon={faEnvelopeOpenText} className={classes.Icon} />
-            Email Notification
+            Email Notifications
           </span>
         </a>
       </div>
